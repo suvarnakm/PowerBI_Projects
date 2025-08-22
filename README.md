@@ -36,15 +36,36 @@ This dashboard helps the Business owners understand their customers and sales be
 - Step 17 : ##Creating Report##
   
 -    1) Added separate stacked bar chart for Top and Bottom for Sales, Profit and Quantity. Added Product Name in the Y-axis and Sum of Net Sales in the X-axis. Added Filter based on Product Name for Top 5 and Bottom 5 values by Net Sales.
+ 
+        <img width="1270" height="711" alt="Image" src="https://github.com/user-attachments/assets/602ea675-ae50-4a1a-b4b4-419b9ae21d4d" />
+        
      2) Added Line chart to Show the Sales Trends over time. Added Date in x-axis and Net Sales in Y-axis.
+ 
+        <img width="1249" height="272" alt="Image" src="https://github.com/user-attachments/assets/84bd6a09-8c37-4067-9dde-904ff4e301af" />
+        
      3) Added Sacatter Plot to show the relationship between Sales and Profit. X- axis Profit and Y-axis Net Sales without summarizing.
+ 
+        <img width="463" height="430" alt="Image" src="https://github.com/user-attachments/assets/2454f222-f8fe-47e9-91ac-ff50e45af788" />
+        
      4) Created two new Tables Date Table 1 and Date Table 2 using CALENDERAUTO() Function. Added two Visual filters (Slicers) for requiremnt 4. Updated the Data Model with these tables. For Date Table 1 created a one to many active relationship and for Date Table 2 created a one to many inactive relationship. Created new measure for Second Date filter since the relationship is inactive. Added Clustered column charts to represent the Sales, Profit and Quantity.
+
+        <img width="1281" height="720" alt="Image" src="https://github.com/user-attachments/assets/5e391dc8-5c50-4846-8268-a7aaa440db14" />
+        
      5) Added Stacked bar chart to show Average discount offered in each discount category. In the x-axis Average Discount Y-axis Promotion Name. To remove the blank unchecked the Black in Filter.
+ 
+        <img width="428" height="282" alt="Image" src="https://github.com/user-attachments/assets/c76be920-f163-468b-92a6-459d51de6eaf" />
+        
      6) Added Card to show the Total Number of Orders. Added Index column starting from 1 and renamed it to order ID to get the order count. Added order ID in the fields and give distinct count.
-     7) Added Table Visual for requirement 7 and Added all columns from Fact table into columns. Added Slicer for filtering based on Date, Customer Name, Product Name and Promotion Names. Added  a Sum column for calaculate sum of Net Sales of Fact Table. Added the sum in th filters and set Show items when the value is not blank. Which will help filtering all the filters based on one selection. 
+ 
+        <img width="425" height="149" alt="Image" src="https://github.com/user-attachments/assets/3305401d-10b9-4717-8e68-348959177c33" />
+        
+     7) Added Table Visual for requirement 7 and Added all columns from Fact table into columns. Added Slicer for filtering based on Date, Customer Name, Product Name and Promotion Names. Added  a Sum column for calaculate sum of Net Sales of Fact Table. Added the sum in th filters and set Show items when the value is not blank. Which will help filtering all the filters based on one selection.
+
+        <img width="1274" height="713" alt="Image" src="https://github.com/user-attachments/assets/70bee1ee-5c25-427c-ba4d-64935724106e" />
+        
      8) Added Map visual to show the Sales for different Cities. Changed Data Category to City and added City to Location. Added Net Sales to Bubble size.
+ 
+        <img width="394" height="438" alt="Image" src="https://github.com/user-attachments/assets/6a49ced0-52d2-4cdd-8090-e84a5be96a0d" />
 
 
   
-           
-           Although, by default, while calculating average, blank values are ignored.
