@@ -23,7 +23,7 @@ This dashboard helps the Business owners understand their customers and sales be
 - Step 12 : To get Net Sales selected custom column under add column and gave the custom column formula as Total Sales - Discount. Changed the datatype to Decimal.
 - Step 13 : Close and Apply. The transformed data is loaded into PowerBI Desktop.
 - Step 14 : Created Data model : Created one to many relationship between Product, Customers and Promotion Table.
--  Step 15 : **Business Requirements**
+-  Step 15 : ##Business Requirements##
 -    1) Top/Bottom 5 product by Sales/Profit/Quantity Sold.
      2) How do sales trends vary over time (daily, monthly, quarterly, annually)
      3) Show relationship between sales & profit.
@@ -33,7 +33,7 @@ This dashboard helps the Business owners understand their customers and sales be
      7) Show Sales/Profit/Discount/Net Sales/All remaining fields for each order that could be filtered using visual filters. (Product/Date/Customer ID/Promotion Categories)
      8) Show sales by different cities.
 - Step 16 : Added a Profit column by assuming Profit value is 10% of Net Sales.
-- Step 17 : **Creating Report**
+- Step 17 : ##Creating Report##
   
 -    1) Added separate stacked bar chart for Top and Bottom for Sales, Profit and Quantity. Added Product Name in the Y-axis and Sum of Net Sales in the X-axis. Added Filter based on Product Name for Top 5 and Bottom 5 values by Net Sales.
      2) Added Line chart to Show the Sales Trends over time. Added Date in x-axis and Net Sales in Y-axis.
